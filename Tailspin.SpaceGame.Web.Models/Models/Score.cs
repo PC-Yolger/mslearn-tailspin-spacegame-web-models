@@ -19,5 +19,7 @@ namespace TailSpin.SpaceGame.Web.Models
         // The game region (map) the score is associated with.
         [JsonProperty(PropertyName = "gameRegion")]
         public string GameRegion { get; set; }
+        
+        // El estilo de juego (dificultad) con el que está asociada la puntuación. [JsonProperty(PropertyName ? "gameStyle") ] cadena pública  GameStyle ? get; conjunto; }
     }
 }
